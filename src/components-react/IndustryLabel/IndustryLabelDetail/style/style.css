@@ -1,0 +1,28 @@
+.industryLabelStyle .jc-form-item{
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: rgba(0,0,0,.65);
+  vertical-align: top;
+}
+
+.industryLabelStyle .seemore{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 6px;
+  background: #f5f5f5;
+}
+
+.industryLabelStyle .jc-modal-body {
+  /* padding: 16px; */
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.industryLabelStyle .jc-form-item-label label{
+  color:#999;
+}
+.industryLabelStyle .jc-table-wrapper{
+  border-top:1px solid #f6f6f6;
+  border-left:1px solid #f6f6f6;
+  border-right:1px solid #f6f6f6;
+}

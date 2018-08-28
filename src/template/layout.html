@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ title }}</title>
+    {% block css %}
+    {% autoescape false %}{{css.style}}{% endautoescape %}
+    {% endblock %}
+
+  </head>
+  <body>
+    {% block content %}
+    <div id='content'>{% autoescape false %}{{content}}{% endautoescape %}</div>
+    {% endblock %}
+    <script>
+    	{% autoescape false %} {{serverData}} {% endautoescape %}
+    </script>
+
+    {% block js %}
+    <script src="{{js.main}}" charSet="UTF-8" ></script>
+    {% endblock %}
+  </body>
+</html>
+

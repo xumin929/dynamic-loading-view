@@ -1,0 +1,41 @@
+.BtnRow {
+  background-color: #fafafa;
+  border: 1px solid #e5e5e5;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.downBtnRow {
+  background-color: #fafafa;
+  border: 1px solid #e5e5e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.BtnRowRight {
+  padding-left: 30px;
+}
+.title {
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.nameToe {
+  display: inline-block;
+  max-width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.keywordToe {
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.indexLabel{
+  color:#ff6c00;
+}

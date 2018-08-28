@@ -1,0 +1,180 @@
+//头部右侧
+.rightTitle{
+  padding-right: 16px;
+  font-size: 12px;
+  float: right;
+}
+//最外层的大盒子
+.box{
+  position: relative;
+  float: left;
+  width: 32%;
+  border: 1px solid #ccc;
+  margin-left: 2%;
+  height: 594px;
+}
+//最外层的大盒子（最左边的，没有左margin
+.leftBox{
+  position: relative;
+  float: left;
+  width: 32%;
+  height: 594px;
+  border: 1px solid #ccc;
+}
+//导航头部信息
+.header{
+  position: relative;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  .tip{
+    float: right;
+    padding-right: 20px;
+  }
+}
+//添加分类导航盒子
+.addBox{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 49px;
+  padding-left: 20px;
+  border-bottom: 1px dotted #ccc;
+  .add{
+    display: block;
+    wdith: 100%;
+    height: 100%;
+  }
+  .moveTop{
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    line-height: 49px;
+  }
+  .moveBottom{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    line-height: 49px;
+  }
+}
+//导航列表盒子
+.listBox{
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+}
+//列表中每行的显示样式
+.rowBox{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 49px;
+  padding-left: 20px;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+  .row{
+    display: block;
+    wdith: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .detail{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .hide{
+      display: none;
+      float: right;
+      margin-right: 20px;
+      line-height: 49px;
+    }
+    .adv{
+      display: none;
+      float: right;
+      margin-right: 20px;
+      line-height: 49px;
+    }
+    .del{
+      display: none;
+      float: right;
+      margin-right: 20px;
+      line-height: 49px;
+    }
+    .upd{
+      display: none;
+      float: right;
+      margin-right: 20px;
+      line-height: 49px;
+    }
+    .show{
+      display: none;
+      float: right;
+      margin-right: 20px;
+      line-height: 49px;
+    }
+  }
+}
+//盒子悬浮样式
+.rowBox:hover{
+  border: 1px solid rgba(0, 153, 255, 1);
+  z-index: 10;
+}
+//盒子悬浮的4个按钮样式
+.rowBox:hover .upd,.rowBox:hover .del,.rowBox:hover .adv,.rowBox:hover .show,.rowBox:hover .hide{
+  display: block;
+}
+//鼠标点击后增加的类名
+.activeRow{
+  background-color: #cfe2f1 !important;
+  border: 1px solid #cfe2f1;
+}
+//操作弹窗中的左边显示样式
+.left{
+  width: 30%;
+  float: right;
+}
+//操作弹窗中的右边显示样式
+.right{
+  width: 70%;
+  float: left;
+}
+//最大盒子的内容样式
+.content{
+  width: 100%;
+  height: 622px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e6eb;
+}
+//最大盒子的底部样式
+.footer{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .tip{
+    color: #f68f44;
+  }
+  .btn{
+    text-align: center;
+  }
+}
+//添加图标样式
+.allMenu:hover{
+  color: #0499ff;
+}
+
+//这是测试的样式
+.test{
+  box-shadow: none;
+}
+
+.mb16{
+  margin-bottom: 16px;
+}

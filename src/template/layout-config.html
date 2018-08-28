@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ title }}</title>
+    {% block css %}
+    {% autoescape false %}{{css.style}}{% endautoescape %}
+    {% endblock %}
+
+  </head>
+  <body>
+    <div>{{title}}</div>
+    {% block content %}
+    <div id='content'>{% autoescape false %}{{content}}{% endautoescape %}</div>
+    {% endblock %}
+    <div>
+<!--        <input type='button' value='cancel' />
+        <input type='button' value='ok' id='ok' />-->
+    </div>
+    <script>
+    	{% autoescape false %} {{serverData}} {% endautoescape %}
+    </script>
+
+    {% block js %}
+    <script src="{{js.main}}" charSet="UTF-8" ></script>
+    {% endblock %}
+  </body>
+</html>
+

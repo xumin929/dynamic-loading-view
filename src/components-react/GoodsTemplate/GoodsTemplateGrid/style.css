@@ -1,0 +1,27 @@
+.tmpl-grid{
+    margin-top: 10px;
+}
+.tmpl-modal .ant-modal-footer{
+    text-align: center;
+}
+.tmpl-modal .ant-modal-footer .tmpl-modal-btn-small{
+    width: 100px;
+}
+.tmpl-modal .ant-modal-footer .tmpl-modal-btn{
+    margin-left: 10px;
+}
+.addtmpl-btn{
+    margin-bottom: 10px;
+}
+.modal-content{
+    text-align: center;
+}
+.mr10{
+    margin-right: 10px;
+}
+.edit-tmplname{
+    width: 200px;
+}
+.disable{
+    color: #999
+}

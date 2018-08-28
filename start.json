@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "b2b-operating-item-view",
+      "script": "./bin/server.js",
+      "instances": 2,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_PATH": "./src",
+        "NODE_ENV": "production",
+        "PORT": 8001,
+        "APIPORT": 80
+      }
+    }
+  ]
+}

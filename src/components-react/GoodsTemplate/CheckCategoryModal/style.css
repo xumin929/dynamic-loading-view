@@ -1,0 +1,13 @@
+.modal-title{
+    position: relative;
+}
+.modal-title-right{
+    position: relative;
+    left: 32%;
+    font-weight: 100;
+    font-size: 12px;
+}
+.tmpl-modal-table{
+    max-height: 400px;
+    overflow: auto;
+}

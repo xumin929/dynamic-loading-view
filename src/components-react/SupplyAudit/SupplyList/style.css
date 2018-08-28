@@ -1,0 +1,34 @@
+li{
+	margin-top: 0;
+}
+.aaa label{
+	color: #999;
+}
+.check{
+  height: 100%;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  margin: 0;
+}
+
+.w-20{
+  width: 20%;
+}
+.w-80{
+  width: 80%;
+}
+.w-50{
+  width: 50%;
+}
+.w-10{
+  width: 10%;
+}
+.w-30{
+  width: 30%;
+}
+.btn-line{
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #ddd;
+}

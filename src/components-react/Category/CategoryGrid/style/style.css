@@ -1,0 +1,40 @@
+body{
+  background: #f4f4f4;
+}
+.common table{
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+}
+.common table thead th{
+  border-bottom: 1px solid #e9e9e9;
+}
+.common .jc-table{
+  border-radius: 0px;
+}
+.common .jc-table table{
+  border-radius: 0px;
+}
+.common-opera{
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.common-opera .jc-col-20 button{
+  float: right;
+  margin-right: 16px;
+}
+.bottomBox{
+  border: 1px solid #e9e9e9;
+  padding: 10px 16px;
+}
+
+.common-opera .saveAllBtn,
+.bottomBox .saveAllBtn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bottomBox .saveAllBtn{float: right;}

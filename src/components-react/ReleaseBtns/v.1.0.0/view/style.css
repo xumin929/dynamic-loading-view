@@ -1,0 +1,13 @@
+.footer{
+    padding: 20px 50px;
+    position: relative;
+    overflow: hidden;
+}
+.footer-btns{
+    position: relative;
+    left: 50%;
+    margin-left: -120px;
+}
+.mr10{
+    margin-right: 10px;
+}

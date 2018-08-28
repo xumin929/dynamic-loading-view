@@ -1,0 +1,25 @@
+/*
+ * Author:gaoqingli
+ * Date:2017-02-18
+ * Description:销售商品管理table样式
+ */
+.table-goods .tg-img{
+	float: left;
+	vertical-align: middle;
+	border: 1px solid #eee;
+	margin-right: 10px;
+  height:57px;
+}
+.table-goods .tg-txt{
+	overflow: hidden;
+	line-height: 18px;
+}
+.text-red{
+	color: #e3383e;
+}
+
+.spu-warp{margin:-10px -8px;}
+.sku-warp{margin:-10px -8px 0 -8px;}
+.sku-row{margin-top:10px;}
+.jc-table-thead > tr > th{ border-bottom:1px solid #eee}
+.spu-warp .jc-table-body .jc-table-tbody tr td{ border-bottom: 0;}

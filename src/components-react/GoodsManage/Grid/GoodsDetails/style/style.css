@@ -1,0 +1,9 @@
+.goods-manage .ant-table-tbody .ant-table-expanded-row > td:last-child{
+    padding:0;
+}
+.goods-manage .ant-table-tbody .ant-table-row-expand-icon-cell{
+    padding-left:30px;
+}
+.goods-manage .ant-table-tbody > tr > td{
+    border-bottom:0;
+}

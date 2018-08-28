@@ -1,0 +1,17 @@
+.fileList{
+  margin-top:10px;
+  color:#108ee9;
+}
+.fileList .fileIcon{
+    margin:0 5px;
+    color:#999;
+  }
+.fileList .fileClose{
+    margin:10px;
+    float:right;
+    color:#999;
+    cursor:pointer;
+  }
+.fileList:hover{
+  background:#ebf8ff;
+}

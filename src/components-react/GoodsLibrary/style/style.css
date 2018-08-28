@@ -1,0 +1,11 @@
+.admin-btn-group-border-top {
+  border-top: 1px solid #e9e9e9;
+}
+.changePad .jc-collapse-header {
+  height: 38px;
+  line-height: 44px !important;
+  padding: 0 0 0 32px !important;
+  color: rgba(0,0,0,.65);
+  cursor: pointer;
+  position: relative;
+}

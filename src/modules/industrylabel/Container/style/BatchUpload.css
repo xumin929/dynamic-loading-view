@@ -1,0 +1,56 @@
+.container {
+  margin-top: 10px;
+  border: 1px solid #ececec;
+  background: #fff;
+  padding-bottom: 15px;
+}
+.container .title {
+  height: 40px;
+  font-size: 16px;
+  color: #666;
+  line-height: 40px;
+  padding-left: 15px;
+  background-color: #fafafa;
+}
+.container .tabCont {
+  padding-left: 15px;
+}
+.downloadTempPanel {
+  overflow: hidden;
+}
+.uploadTempPanel {
+  margin-top: 15px;
+}
+.textTitle {
+  margin-right: 10px;
+}
+#brandUpload {
+  margin: 16px;
+  position: relative;
+}
+#brandUpload .tabCont {
+  padding-bottom: 20px;
+}
+.hintSuccess {
+  padding: 10px 0 20px;
+  text-align: center;
+}
+.hintSuccess span {
+  display: inline-block;
+  margin: 0 3px;
+}
+.hintTitle {
+  padding: 10px 0;
+}
+.textGreen {
+  color: green;
+}
+.textRed {
+  color: red;
+}
+.ov{
+  overflow: hidden;
+}
+.tableStyle {
+  margin-top: 20px;
+}

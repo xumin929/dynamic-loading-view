@@ -1,0 +1,38 @@
+.template-transfer-box{
+    height: 330px;
+    width: auto;
+    overflow: hidden;
+}
+.template-transfer-search{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.template-transfer-title{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.template-transfer-title .title-left{
+    margin-right: 235px;
+}
+.transfer-tree-box{
+    height: 250px;
+    width: 42%;
+    float: left;
+    border :1px solid #ddd;
+}
+.transfer-tree{
+    height: 248px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.transfer-btn-box{
+    height: 250px;
+    width: 16%;
+    float: left;
+}
+.transfer-btn-box .transfer-btn-left{
+    margin: 80px 0 0 15px;
+}
+.transfer-btn-box .transfer-btn-right{
+    margin: 10px 0 0 15px;
+}

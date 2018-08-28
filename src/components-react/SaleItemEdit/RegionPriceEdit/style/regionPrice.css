@@ -1,0 +1,13 @@
+.w160{display:inline-block;width:160px;}
+.popButton{margin-top:8px;padding-top:8px;text-align:right;border-top:1px solid #e5e5e5}
+.popButton button{margin-left:8px;}
+
+.countryBox h3,
+.regionBox h3{font-size:14px;font-weight:bold;margin-bottom:10px;}
+.regionList .jc-form-item-label{padding-bottom:0;}
+.regionList .jc-form-item{margin-bottom:0;border:1px solid #e7e7eb;margin-top:-1px;padding:6px 0;}
+.regionList .jc-form-item:nth-child(odd){background:#f7f7f7;}
+.selectRegion{text-align:right;}
+.regionList .areaTitle{margin:0 15px;overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis}
+.regionList .actionDel{float:right;margin-right:28px;}
+

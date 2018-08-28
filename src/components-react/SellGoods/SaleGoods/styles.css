@@ -1,0 +1,289 @@
+.btns {
+  width: 100%;
+  height: 50px;
+  min-width: 1000px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #f7f7f7;
+  line-height: 50px;
+}
+.content .title {
+  width: 100%;
+  height: 40px;
+  min-width: 1000px;
+  padding-left: 20px;
+  background-color: #f7f7f7;
+  line-height: 40px;
+}
+.content .title span {
+  display: inline-block;
+}
+.content .saleDetail {
+  min-width: 1000px;
+}
+.content .saleDetail .hd {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  padding-left: 40px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px dashed #e5e5e5;
+  background-color: #fafafa;
+  line-height: 30px;
+}
+.content .saleDetail .hd span {
+  display: inline-block;
+}
+.content .saleDetail .sale {
+  width: 100%;
+  height: 80px;
+  padding-left: 20px;
+  background-color: #fff;
+  line-height: 80px;
+}
+.content .saleDetail .sale .parentBox {
+  float: left;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  line-height: 120%;
+}
+.content .saleDetail .sale .saleInfo {
+  width: 100%;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  padding-right: 22px;
+  padding-left: 102px;
+}
+.content .saleDetail .sale .saleInfo .zk {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+}
+.content .saleDetail .sale .saleInfo .pic {
+  position: absolute;
+  left: 32px;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #eee;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.content .saleDetail .sale .saleInfo .pic img {
+  width: 100%;
+  height: 100%;
+}
+.content .saleDetail .sale .saleInfo .wenzi {
+  color: #29b0fd;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .saleInfo .wenzi span {
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 120%;
+}
+.content .saleDetail .sale .mianjia {
+  display: inline-block;
+  overflow: hidden;
+  padding-right: 22px;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .pifa {
+  display: inline-block;
+  padding-right: 22px;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .xiaoliang {
+  display: inline-block;
+  overflow: hidden;
+  padding-right: 22px;
+  color: #e23b3e;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .listingTime {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .saleOperation {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .status {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .sale .action {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale {
+  width: 100%;
+  height: 80px;
+  padding-left: 20px;
+  line-height: 80px;
+  background-color: #fcfcfd;
+}
+.content .saleDetail .showSale .parentBox {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  line-height: 120%;
+}
+.content .saleDetail .showSale .saleInfo {
+  position: relative;
+  display: inline-block;
+  width: 29%;
+  height: 80px;
+  padding-left: 170px;
+  padding-right: 22px;
+}
+.content .saleDetail .showSale .saleInfo .pic {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #eee;
+}
+.content .saleDetail .showSale .saleInfo .pic img {
+  width: 100%;
+  height: 100%;
+}
+.content .saleDetail .showSale .saleInfo .wenzi {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  color: #5e5e5e;
+  overflow: hidden;
+}
+.content .saleDetail .showSale .saleInfo .wenzi span {
+  cursor: pointer;
+}
+.content .saleDetail .showSale .mianjia {
+  display: inline-block;
+  overflow: hidden;
+  padding-right: 22px;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .pifa {
+  display: inline-block;
+  padding-right: 22px;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .xiaoliang {
+  display: inline-block;
+  overflow: hidden;
+  padding-right: 22px;
+  color: #e23b3e;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .listingTime {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .saleOperation {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .status {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.content .saleDetail .showSale .action {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 120%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.pag {
+  float: right;
+  margin: 20px 0;
+}
+.noData {
+  width: 100%;
+  height: 52px;
+  padding-top: 16px;
+  text-align: center;
+}

@@ -1,0 +1,165 @@
+.rightTitle {
+  padding-right: 16px;
+  font-size: 12px;
+  float: right;
+}
+.box {
+  position: relative;
+  float: left;
+  width: 32%;
+  border: 1px solid #ccc;
+  margin-left: 2%;
+  height: 594px;
+}
+.leftBox {
+  position: relative;
+  float: left;
+  width: 32%;
+  height: 594px;
+  border: 1px solid #ccc;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+.header .tip {
+  float: right;
+  padding-right: 20px;
+}
+.addBox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 49px;
+  padding-left: 20px;
+  border-bottom: 1px dotted #ccc;
+}
+.addBox .add {
+  display: block;
+  wdith: 100%;
+  height: 100%;
+}
+.addBox .moveTop {
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  line-height: 49px;
+}
+.addBox .moveBottom {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  line-height: 49px;
+}
+.listBox {
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+}
+.rowBox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  line-height: 49px;
+  padding-left: 20px;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+.rowBox .row {
+  display: block;
+  wdith: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.rowBox .detail {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.rowBox .detail .hide {
+  display: none;
+  float: right;
+  margin-right: 20px;
+  line-height: 49px;
+}
+.rowBox .detail .adv {
+  display: none;
+  float: right;
+  margin-right: 20px;
+  line-height: 49px;
+}
+.rowBox .detail .del {
+  display: none;
+  float: right;
+  margin-right: 20px;
+  line-height: 49px;
+}
+.rowBox .detail .upd {
+  display: none;
+  float: right;
+  margin-right: 20px;
+  line-height: 49px;
+}
+.rowBox .detail .show {
+  display: none;
+  float: right;
+  margin-right: 20px;
+  line-height: 49px;
+}
+.rowBox:hover {
+  border: 1px solid #0099ff;
+  z-index: 10;
+}
+.rowBox:hover .upd,
+.rowBox:hover .del,
+.rowBox:hover .adv,
+.rowBox:hover .show,
+.rowBox:hover .hide {
+  display: block;
+}
+.activeRow {
+  background-color: #cfe2f1 !important;
+  border: 1px solid #cfe2f1;
+}
+.left {
+  width: 30%;
+  float: right;
+}
+.right {
+  width: 70%;
+  float: left;
+}
+.content {
+  width: 100%;
+  height: 622px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e6eb;
+}
+.footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer .tip {
+  color: #f68f44;
+}
+.footer .btn {
+  text-align: center;
+}
+.allMenu:hover {
+  color: #0499ff;
+}
+.test {
+  box-shadow: none;
+}
+.mb16 {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,27 @@
+.tableBorder .jc-table {
+  border-top: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+}
+.tableBorder thead th{border-bottom:1px solid #e9e9e9;}
+.table-box-title .jc-table-placeholder{
+  display: none;
+}
+.table-box-box-title .jc-spin-container .jc-table{
+  border-top: none;
+}
+.attr-name-p{
+  padding: 6px;
+}
+.labelTitle {
+  width: 80px;
+  text-align:right;
+  line-height: 32px;
+}
+.label-box .jc-select-selection--single{
+  height: 32px;
+  line-height: 32px;
+}
+.labelSelect{
+  width: 100%;
+}

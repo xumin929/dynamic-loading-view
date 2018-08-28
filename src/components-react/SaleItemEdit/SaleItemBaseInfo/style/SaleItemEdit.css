@@ -1,0 +1,21 @@
+.sellGoodsHead {
+  padding: 0;
+  color: #333;
+}
+.sellGoodsHead p {
+  padding:0 0 10px 0;
+}
+.sellGoodsHead p:last-child{
+  padding:0;
+}
+.sellGoodsHead h6 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.sellGoodsHead label {
+  float: left;
+  min-width: 70px;
+  color: #999;
+  text-align: right;
+  font-weight: normal;
+}

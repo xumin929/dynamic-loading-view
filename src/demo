@@ -1,0 +1,5 @@
+system  Hooks管理     http://platform.eureka3.com/news-operating-view/hooks-manager     为页面添加钩子
+system  组件管理       http://platform.eureka3.com/news-operating-view/modules-manager   新增组件，版本管理，关联页面
+platform  客服组件配置url，在添加版本的时候需要添加   http://platform.eureka3.com/dynamic-load-component-view/configs/components-react/Customer/v1.0.0
+咚咚客服Url：http://dd2-open.jd.com/chat/m/index?source=open_web&aspid=4294990607.3.1.1.98.2&mallId=4294990607&appId=open.1f8fbbd0a0779844bd80010093.customer&waiterAppId=open.1f8fbbd0a0779844bd80010093.waiter&loginToken=9FA4D7D05D70B1D3B31193B77825D53CCDC36B16961F804C4FD019D77D98C88EE511D7F3F3DF2151112D23CF4F725C76CF4D0FB6184EAAB1B809B595B66AEDFF
+百度客服Url：http://p.qiaos.baidu.com/cps/chat?siteId=10819178&userId=23978973

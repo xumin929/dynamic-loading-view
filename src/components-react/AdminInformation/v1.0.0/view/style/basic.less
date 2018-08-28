@@ -1,0 +1,32 @@
+.label {
+  margin-top: 15px;
+}
+
+.labelWrap {
+  display: inline-block;
+  > * {
+    display: inline-block;
+  }
+  .labelTitle {
+    width: 80px;
+    text-align:right;
+    float:left;
+    margin-top: 5px;
+  }
+  .labelCont {
+    width: 200px;
+    padding:0 8px;
+  }
+}
+.labelWrap:after{
+  content: " ";
+  clear: both;
+  display: block;
+}
+.labelSelect{
+  width: 100%;
+}
+
+.colorRed{
+  color: red;
+}

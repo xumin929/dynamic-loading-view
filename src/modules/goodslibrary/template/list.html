@@ -1,0 +1,23 @@
+{% extends '../../../template/layout.html' %}
+{% block css %}
+<link href="{{css.goodslibrary}}" rel="stylesheet" type="text/css" charSet="UTF-8"/>
+{% endblock %}
+{% block js %}
+<script>
+    window.UEDITOR_HOME_URL="/operating-item-view/ueditor/";
+</script>
+{% if mode == true %}
+<script src="/{{micro_service_name}}/dlls/dll__vendor.js" charSet="UTF-8"></script>
+{% endif %}
+
+<!-- FIXME release 非本地部署时时使用 -->
+<!--<script src="{{js.ueditor}}" charSet="UTF-8" ></script>-->
+
+<!-- start dev 本地开发调试时打开 -->
+<script src="/operating-item-view/ueditor/ueditor.config.js" charSet="UTF-8"></script>
+<script src="/operating-item-view/ueditor/ueditor.all.min.js" charSet="UTF-8"></script>
+<script src="/operating-item-view/ueditor/lang/zh-cn/zh-cn.js" charSet="UTF-8"></script>
+<!-- end dev  -->
+
+<script src="{{js.goodslibrary}}" charSet="UTF-8" ></script>
+{% endblock %}

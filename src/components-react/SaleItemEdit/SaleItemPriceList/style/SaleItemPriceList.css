@@ -1,0 +1,101 @@
+.sumTr {
+  background: #f7f7f7;
+}
+.sumTr td {
+  padding: 10px 10px 10px 10px;
+}
+.sumTr td:nth-child(1){
+  width: 200px;
+}
+.sumTr td:nth-child(2){
+  width: 60px;
+}
+.sumTr .jc-form-item-label{
+  text-align: left
+}
+.sumTr .jc-col-8{
+  width: auto;
+}
+
+.secondTr td{
+    padding-left: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid #e7e7eb;
+}
+table tr:last-child {
+  border-bottom: none;
+}
+table td {
+  padding: 16px 0 16px 10px;
+}
+table .checkPrice {
+  float: right;
+  margin-right: 10px;
+}
+.txt-red {
+  color: #e4393c;
+}
+.txt-blue {
+  color: #36aeff;
+}
+
+.saleType .jc-form-item-label label{
+  float: left;
+  min-width: 70px;
+  color: #999;
+  text-align: right;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.saleType .jc-form-item-control-wrapper{
+  display: inline-block;
+}
+.saleType .jc-input-group{
+  width:110px;
+  position: relative;
+  top:0px;
+}
+
+
+.saleType .jc-form-item-label label:after{
+  margin: 0 5px 0 2px;
+}
+
+
+
+.saleTypeTitle{
+  display: inline-block;
+}
+
+.saleType jc-form-item-control{
+  display: inline-block;
+}
+
+.paymentTitle{
+  display: inline-block;
+
+}
+
+.saleTypeOperation{
+  display: inline-block;
+  padding-left:10px;
+}
+
+.saleType .jc-form-explain{
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  width: 140px;
+  left: 0px;
+}
+/*
+.saleType .has-error .jc-input-group{
+  top:32px;
+} */

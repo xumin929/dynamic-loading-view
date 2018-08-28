@@ -1,0 +1,41 @@
+@font-family:'微软雅黑';
+@module-margin:16px;
+@module-padding:16px;
+@container-margin:0 10px;
+@brand-title-height:50px;
+@brand-title-bg:#fafafa;
+@brand-bg:#f4f4f4;
+
+#brandContainer{
+	background:@brand-bg;
+	*{
+		font-family:@font-family;
+	}
+	.breadWrap{
+		height:44px;
+		line-height:44px;
+		padding-left:@module-padding;
+	}
+	.container{
+		margin:@container-margin;
+		border:1px solid #ececec;
+		background:#fff;
+		padding-bottom:@module-padding;
+		.title{
+			height:@brand-title-height;
+			font-size:16px;
+			color:#666;
+			line-height:@brand-title-height;
+			padding-left:@module-padding;
+			background-color:@brand-title-bg;
+		}
+		.searchWrap{
+			margin:@module-margin @module-margin 0;
+			background:#f7f7f7;
+			padding-top:@module-padding;
+			padding-left:@module-padding;
+			padding-right:@module-padding;
+		}
+		
+	}
+}

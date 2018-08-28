@@ -1,0 +1,138 @@
+.category-main{
+  height: 280px;
+  padding: 5px 0;
+  li{
+    width:120px;
+    padding-left: 2px;
+    ul{
+      padding: 0 3px;
+
+    }
+
+
+  }
+  ul{
+    height: 280px;
+    width:135px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border:1px solid #ddd;
+    border-left: none;
+    padding: 0 3px;
+    top:0;
+    position: absolute;
+  }
+  &>ul{
+    border-left: 1px solid #ddd;
+    &>li>span:first-of-type{
+      display: none;
+    }
+    &>li>ul{
+      left:150px;
+      &>li>span:first-of-type{
+        display: none;
+      }
+      &>li>ul{
+        left:150px;
+        &>li>span:first-of-type{
+          display: none;
+        }
+        &>li>ul{
+          left: 150px;
+          &>li>span:first-of-type{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .active-tree{
+
+    ul{
+      li:first-of-type>span:last-of-type{
+        background-color:#d2eafb
+      }
+    }
+    &>span{
+      background-color:#d2eafb
+    }
+  }
+  .active-tree-node{
+    &>span{
+      background: #d2eafb;
+    }
+  }
+
+}
+.industryLabel{
+  border:1px solid #ccc;
+  width: 500px;
+  label{
+    width: 155px;
+    padding-left: 5px;
+    display: inline-block;
+  }
+}
+.label-star{
+  .ant-form-item-label label:before{
+    display: inline-block;
+    margin-right: 4px;
+    content: "*";
+    font-family: SimSun;
+    line-height: 1;
+    font-size: 12px;
+    color: #F04134;
+  }
+  .ant-checkbox-group{
+    max-height: 280px;
+    overflow-y: scroll;
+    width: 510px;
+  }
+}
+
+.ant-tree li .ant-tree-node-content-wrapper {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 2px;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: top;
+  color: rgba(0,0,0,.65);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.nav3-modal{
+  overflow: hidden;
+  position:fixed;
+  .ant-form-explain{
+    position: absolute;
+  }
+  .ant-form-item,.ant-form-item-with-help{
+    margin-bottom: 24px;
+  }
+    .ant-modal{
+      top:50px;
+      .ant-modal-body{
+        height: auto;
+        max-height: 480px;
+      }
+  }
+}
+.borderR{
+    border-right: 1px solid #ddd;
+}
+
+
+.ant-tree-node-selected{
+  background-color:#d2eafb
+
+}
+
+.category3-loading{
+  text-align: center;
+  line-height: 280px;
+  max-width: 500px;
+  background: rgba(55,55,55,.1);
+}

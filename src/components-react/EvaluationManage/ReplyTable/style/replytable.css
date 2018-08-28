@@ -1,0 +1,150 @@
+.yang_container {
+  margin-top:20px;
+}
+.yang_container .padRig{
+  padding-right: 20px;
+}
+.yang_container .padRig .padrig-span{
+  color: #ccc;
+}
+.modal-form-item .jc-form-item{
+  margin-bottom: 2px;
+}
+.yang_container .jc-table-tbody > tr > td {
+  padding:0;
+}
+.yang_container .height30{
+  height: 30px;
+  line-height: 30px;
+}
+.yang_container .padLef20{
+  padding-left:20px;
+}
+.yang_container .padTopBot10{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.yang_container .padTop10{
+  padding-top:10px;
+}
+.yang_container .clr_blue{
+  color:#33aefe;
+}
+.yang_container .bgClr_gray{
+  background: #f7f7f7;
+}
+.yang_container .minHgt20{
+  min-height: 20px;
+}
+.yang_container .clr_orange{
+  color:#ff6c00;
+}
+.yang_container .padLefRit20{
+  padding-right:20px;
+  padding-left:20px;
+}
+.yang_container .padLefRit60{
+  overflow: hidden;
+  padding-right:60px;
+  padding-left:20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.yang_container .replyList p:last-child{
+  border-bottom: none;
+}
+.yang_container .replyList{
+  position: relative;
+}
+.yang_container .replyList:before{
+  content: '';
+  position:absolute;
+  top:-7px;
+  left:40px;
+  width:15px;
+  height:15px;
+  background: #f4f5f9;
+  border-top:1px solid #e7e7eb;
+  border-left:1px solid #e7e7eb;
+  transform:rotate(45deg);
+}
+
+.com-content{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e7e7e7;
+  margin: 10px 10px 10px 0;
+
+}
+
+.com-content:hover .com-img{
+  opacity: 1;
+  filter:Alpha(opacity=100);
+  cursor:pointer;
+}
+
+.com-content:hover .com-img-span-1{
+  opacity: 1;
+  filter:Alpha(opacity=100);
+  cursor:pointer;
+}
+
+.com-content:hover .com-img-span{
+  opacity: .3;
+  filter:Alpha(opacity=30);
+}
+
+.com-content-img{
+  width: 100%;
+  height: 100%;
+}
+
+.com-content .com-img-span {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  height: 20px;
+  opacity: 0;
+  filter:Alpha(opacity=0);
+  background: #000;
+}
+.com-content .com-img-span-1{
+  color: #fff;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 11;
+  text-align: left;
+  padding-left: 10px;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  opacity: 0;
+  filter:Alpha(opacity=0);
+}
+
+.com-content .com-img {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  filter:Alpha(opacity=0)
+}
+
+.imgBox{
+  padding: 0 20px;
+}
+
+.yang_container .padBox{
+  padding: 12px 0 12px 20px;
+}

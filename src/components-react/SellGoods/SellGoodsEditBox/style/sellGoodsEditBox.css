@@ -1,0 +1,22 @@
+.sumTr {
+  background: #f7f7f7;
+}
+.sumTr td {
+  padding: 10px 0 10px 10px;
+}
+table {
+  width: 100%;
+}
+table tr {
+  border-bottom: 1px solid #e7e7eb;
+}
+table tr:last-child {
+  border-bottom: none;
+}
+table td {
+  padding: 16px 0 16px 10px;
+}
+table .checkPrice {
+  float: right;
+  margin-right: 10px;
+}

@@ -1,0 +1,69 @@
+.table-bordered{
+    border: 1px solid #e9e9e9;
+    border-radius: 4px 4px 0 0;
+}
+.table-bordered .jc-checkbox-wrapper + .jc-checkbox-wrapper{
+    margin-left: 0px !important;
+    margin-right: 8px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.h3-title{
+    font-size: 14px;
+    margin: 20px 0px 0px;
+    color: rgba(0,0,0,.65);
+}
+.table-bordered .jc-table-thead > tr > th{
+    font-weight: 600;
+}
+
+.otherMt202 {
+    margin-top: 10px;
+  }
+
+  .smallColor {
+    color: #999;
+    font-size: 12px;
+  }
+
+  .marginL5{
+    margin-right: 5px;
+  }
+
+  .smaillest {
+    margin-right: 5px;
+    line-height: 32px;
+  }
+
+  .statement {
+    float: left;
+  }
+
+.mlgroup .jc-radio-group{
+    margin-left: 11px;
+  }
+
+  .elseInfo .jc-input{
+    width: 90%;
+  }
+
+  .elseInfo .smallColor{
+    float: left;
+  }
+  .clearfix:after{
+    display: inline-block;
+    content:"";
+    clear: both;
+  }
+  .pull-left{
+    float: left;
+  }
+  .uploadify{
+    width: 450px;
+    position: relative;
+  }
+  .upload-tips{
+    position: absolute;
+    top: 5px;
+    left: 110px;
+  }

@@ -1,0 +1,11 @@
+{% extends '../../../../../template/layout.html' %}
+{% block css %}
+<link href="{{css['releaseSaleInfoConfig-v1.0.0']||''}}" rel="stylesheet" type="text/css" charSet="UTF-8"/>
+{% endblock %}
+{% block js %}
+{% if mode == true %}
+<script src="/{{micro_service_name}}/dlls/dll__vendor.js" charSet="UTF-8"></script>
+{% endif %}
+
+<script src="{{js['releaseSaleInfoConfig-v1.0.0']||''}}" charSet="UTF-8" ></script>
+{% endblock %}

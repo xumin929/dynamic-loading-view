@@ -1,0 +1,148 @@
+.category-main {
+  height: 280px;
+  padding: 5px 0;
+}
+.category-main li {
+  width: 120px;
+  padding-left: 2px;
+}
+.category-main li ul {
+  padding: 0 3px;
+}
+.category-main ul {
+  height: 280px;
+  width: 135px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ddd;
+  border-left: none;
+  padding: 0 3px;
+  top: 0;
+  position: absolute;
+}
+.category-main > ul {
+  border-left: 1px solid #ddd;
+}
+.category-main > ul > li > span:first-of-type {
+  display: none;
+}
+.category-main > ul > li > ul {
+  left: 150px;
+}
+.category-main > ul > li > ul > li > span:first-of-type {
+  display: none;
+}
+.category-main > ul > li > ul > li > ul {
+  left: 150px;
+}
+.category-main > ul > li > ul > li > ul > li > span:first-of-type {
+  display: none;
+}
+.category-main > ul > li > ul > li > ul > li > ul {
+  left: 150px;
+}
+.category-main > ul > li > ul > li > ul > li > ul > li > span:first-of-type {
+  display: none;
+}
+.category-main .active-tree ul li:first-of-type > span:last-of-type {
+  background-color: #d2eafb;
+}
+.category-main .active-tree > span {
+  background-color: #d2eafb;
+}
+.category-main .active-tree-node > span {
+  background: #d2eafb;
+}
+.industryLabel {
+  border: 1px solid #ccc;
+  width: 500px;
+}
+.industryLabel label {
+  width: 155px;
+  padding-left: 5px;
+  display: inline-block;
+}
+.label-star .ant-form-item-label label:before {
+  display: inline-block;
+  margin-right: 4px;
+  content: "*";
+  font-family: SimSun;
+  line-height: 1;
+  font-size: 12px;
+  color: #F04134;
+}
+.label-star .ant-checkbox-group {
+  max-height: 280px;
+  overflow-y: scroll;
+  width: 510px;
+}
+.ant-tree li .ant-tree-node-content-wrapper {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 2px;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: top;
+  color: rgba(0, 0, 0, 0.65);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.nav3-modal {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.nav3-modal .ant-form-explain {
+  position: absolute;
+}
+.nav3-modal .ant-form-item,
+.nav3-modal .ant-form-item-with-help {
+  margin-bottom: 24px;
+}
+.nav3-modal .ant-modal {
+  top: 50px;
+}
+.nav3-modal .ant-modal .ant-modal-body {
+  height: auto;
+  max-height: 480px;
+}
+.borderR {
+  border-right: 1px solid #ddd;
+}
+.ant-tree-node-selected {
+  background-color: #d2eafb;
+}
+.category3-loading {
+  text-align: center;
+  line-height: 280px;
+  max-width: 500px;
+  background: rgba(55, 55, 55, 0.1);
+}
+
+.category-main .ant-tree-node-content-wrapper{
+  max-width: 105px;
+}
+.category-main .ant-tree-node-content-wrapper .ant-tree-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.f-oh-imp{
+  overflow: hidden!important;
+}
+.load-box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: 9999;
+  background: rgba(255,255,255,0.7);
+}
+.load-box .ant-spin-spinning{
+  position: relative;
+  top:50%
+}

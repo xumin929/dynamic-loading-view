@@ -1,0 +1,51 @@
+.picturesku{
+  font-size: 14px;
+  padding: 5px 24px 5px 5px;
+}
+.skucolor{
+  width:100px;
+  height:150px;
+  float:left;
+  text-align: center;
+  padding-top: 50px;
+}
+.skuvolume{
+  width:100px;
+  height:150px;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+}
+.required{
+  font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+  font-weight: 700;
+  color: #f04134;
+}
+.container{
+    width: 100%;
+    position: relative;
+    min-height: 700px;
+}
+.container .breadcrumb{
+    line-height: 40px;
+    padding-left: 10px;
+    background: #f4f4f4;
+    border:1px solid #E7E7E7;
+    border-bottom:none;
+}
+.space{
+   margin-top:22px;
+}
+.breadcrumb .jc-radio-wrapper{
+  margin-right:12px;
+}
+.breadcrumb .gray{
+  color:#999;
+}
+.pad_top_bot{
+  padding:6px 0px;
+}
+.tip{
+  color:red;
+  padding-left:8px;
+}

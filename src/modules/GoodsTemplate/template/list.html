@@ -1,0 +1,17 @@
+{% extends '../../../template/layout.html' %}
+{% block css %}
+<link href="{{css.goodstemplate}}" rel="stylesheet" type="text/css" charSet="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="/operating-item-view/ueditor/themes/default/css/ueditor.css" />
+{% endblock %}
+{% block js %}
+{% if mode == true %}
+<script src="/{{micro_service_name}}/dlls/dll__vendor.js" charSet="UTF-8"></script>
+{% endif %}
+<script>
+    window.UEDITOR_HOME_URL="/operating-item-view/ueditor/";
+</script>
+<script src="/operating-item-view/ueditor/ueditor.config.js" charSet="UTF-8"></script>
+<script src="/operating-item-view/ueditor/ueditor.all.min.js" charSet="UTF-8"></script>
+<script src="/operating-item-view/ueditor/lang/zh-cn/zh-cn.js" charSet="UTF-8"></script>
+<script src="{{js.goodstemplate}}" charSet="UTF-8" ></script>
+{% endblock %}

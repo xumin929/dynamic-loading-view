@@ -1,0 +1,15 @@
+.content {
+  padding-bottom: 24px !important;
+  border: 0 !important;
+  border-bottom: 1px solid #eee !important;
+  min-height: 0;
+}
+.nopadding {
+  padding: 0;
+}
+.skuTable tr:last-child td {
+  border: 0;
+}
+.skuTable td {
+  padding: 16px !important;
+}

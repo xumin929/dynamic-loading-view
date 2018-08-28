@@ -1,0 +1,40 @@
+.rb1 {
+  background: #fff;
+  float: left;
+  /*padding-right: 5px;*/
+  /*border-right: 1px solid #dddddd;*/
+  width:220px;
+}
+.collection-create-form_last-form-item {
+  margin-bottom: 0;
+}
+.dynamicbutton1 {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 20px;
+  color: #999;
+  transition: all .3s;
+}
+.dynamicbutton1:hover {
+  color: #777;
+}
+.dynamicbutton1[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.addSpecification1 {
+  padding: 16px 4px;
+  height: 300px;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 360px;
+}
+
+.addNewSpecifications .jc-form-item {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: rgba(0,0,0,.65);
+  vertical-align: top;
+}

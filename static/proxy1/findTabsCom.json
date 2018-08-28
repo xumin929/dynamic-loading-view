@@ -1,0 +1,211 @@
+{
+	"state": "1",
+	"data": {
+		"HOOK_TABS_template1": [
+			{
+				"id": "0",
+				"componentName": "ReleaseSpecification",
+				"config": "{\"tabTitle\":\"规格参数\"}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template1"
+			},
+			{
+				"id": "1",
+				"componentName": "ReleaseGoodsDesc",
+				"config": "{\"tabTitle\":\"商品介绍\"}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template1"
+			}
+		],
+		"HOOK_BASIC_INFO_template1": [
+			{
+				"id": "5",
+				"componentName": "BasicSecondCategory",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "6",
+				"componentName": "BasicShopCategory",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "21",
+				"componentName": "ReleaseAdvertisingWord",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicBrand",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicPlace",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "3",
+				"componentName": "ReleaseChannel",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicIndustryTag",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template1"
+			},
+			{
+				"id": "0",
+				"componentName": "ReleaseSaleSpecification",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template1"
+			},
+			{
+				"id": "1",
+				"componentName": "ReleaseSaleInfo",
+				"config": "{}",
+				"moduleConfig": "{\"modelCode\": false, \"productCode\": true, \"barCode\": false, \"weight\":false, \"size\": false, \"skuUnit\": true, \"size\": false, \"extendColumnFields\": [{\"label\": \"input1\",\"labelName\": \"列名称 input\", \"type\": \"input\"}, { \"label\": \"image1\", \"labelName\": \"图片1\", \"type\": \"image\"}, { \"label\": \"file1\", \"labelName\": \"文件1\", \"type\": \"file\"}] }",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template1"
+			},
+			{
+				"id": "0",
+				"componentName": "AdminInformation",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template1"
+			}
+		],
+		"HOOK_TABS_template2": [
+			{
+				"id": "1",
+				"componentName": "ReleaseGoodsDesc",
+				"config": "{\"tabTitle\":\"商品介绍\"}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_TABS_template2"
+			}
+		],
+		"HOOK_BASIC_INFO_template2": [
+			{
+				"id": "6",
+				"componentName": "BasicShopCategory",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "21",
+				"componentName": "ReleaseAdvertisingWord",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicBrand",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicPlace",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "3",
+				"componentName": "ReleaseChannel",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "2",
+				"componentName": "BasicIndustryTag",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "0",
+				"componentName": "ReleaseSaleSpecification",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "1",
+				"componentName": "ReleaseSaleInfo",
+				"config": "{}",
+				"moduleConfig": "{\"modelCode\": false, \"productCode\": true, \"barCode\": false, \"weight\":false, \"size\": false, \"skuUnit\": true, \"size\": false, \"extendColumnFields\": [{\"label\": \"input1\",\"labelName\": \"列名称 input\", \"type\": \"input\"}, { \"label\": \"image1\", \"labelName\": \"图片1\", \"type\": \"image\"}, { \"label\": \"file1\", \"labelName\": \"文件1\", \"type\": \"file\"}] }",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			},
+			{
+				"id": "0",
+				"componentName": "AdminInformation",
+				"config": "{}",
+				"moduleConfig": "{}",
+				"version": "v1.0.0",
+				"ssr": "1",
+				"hook": "HOOK_BASIC_INFO_template2"
+			}
+		]
+	}
+}

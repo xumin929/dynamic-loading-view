@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>{{ title }}</title>
+    {% block css %}
+    {% autoescape false %}{{css.style}}{% endautoescape %}
+    {% endblock %}
+
+  </head>
+  <body>
+    <div id='content'>
+      <form id='config-form' name='config-form'>
+          {% block content %}
+              {% autoescape false %}{{content}}{% endautoescape %}
+          {% endblock %}
+          <div class='config-btns'>
+              <input type='submit' value='确定' id='ok' />
+          </div>
+      </form>
+    </div>
+    <script>
+    	{% autoescape false %} {{serverData}} {% endautoescape %}
+    </script>
+
+    {% block js %}
+    <script src="{{js.main}}" charSet="UTF-8" ></script>
+    {% endblock %}
+  </body>
+</html>
+
